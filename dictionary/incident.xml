@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="110" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Subcategory" max_length="40" name="x_58872_needit_subcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tags" max_length="40" name="x_58872_needit_tags" type="string"/>
+    </element>
+</database>
